@@ -1,0 +1,17 @@
+body {
+    font-family: monospace;
+}
+#copied-message {
+    display: inline;
+    margin-left: 1em;
+    color: green;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#copied-message.visible {
+    opacity: 1;
+    transition: none;
+}
+#result-textarea {
+    resize: none;
+}
