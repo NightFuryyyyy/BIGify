@@ -9,14 +9,17 @@ body {
     background-color: #333333;
     color: #E0E0E0;
     border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 #copy-button, #bigify-button {
     height: 30px;
     background-color: #eeeeee;
     color: #202020;
     border: none;
-    border-radius: 20px;
-    padding: 0px 15px;
+    border-radius: 10px;
+    padding: 0px 10px;
 }
 #copied-message {
     display: inline;
@@ -34,20 +37,7 @@ body {
     background-color: #333333;
     color: #E0E0E0;
     border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
 }
-
-/* @media only screen and (max-width: 600px) {
-
-}
-
-Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {...}
-
-/* Medium devices (landscape tablets, 768px and up)
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {...}  */
