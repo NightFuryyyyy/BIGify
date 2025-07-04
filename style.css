@@ -1,5 +1,22 @@
 body {
     font-family: monospace;
+    background-color: #1f1f1f;
+    color: #E0E0E0;
+}
+#user-input {
+    height: 30px;
+    width: 500px;
+    background-color: #333333;
+    color: #E0E0E0;
+    border: none;
+}
+#copy-button, #bigify-button {
+    height: 30px;
+    background-color: #eeeeee;
+    color: #202020;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 15px;
 }
 #copied-message {
     display: inline;
@@ -14,4 +31,23 @@ body {
 }
 #result-textarea {
     resize: none;
+    background-color: #333333;
+    color: #E0E0E0;
+    border: none;
 }
+
+/* @media only screen and (max-width: 600px) {
+
+}
+
+Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {...}  */
