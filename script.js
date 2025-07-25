@@ -248,11 +248,11 @@ const alphabet = {
               " "]
     };
 
-const userInput = document.getElementById("user-input");
-const bigifyButton = document.getElementById("bigify-button");
-const resultTextarea = document.getElementById("result-textarea");
-const copyButton = document.getElementById("copy-button");
-const copiedMessage = document.getElementById("copied-message");
+const userInput = document.querySelector(".user-input");
+const bigifyButton = document.querySelector(".bigify-button");
+const resultTextarea = document.querySelector(".result-textarea");
+const copyButton = document.querySelector(".copy-button");
+const copiedMessage = document.querySelector(".copied-message");
 
 bigifyButton.onclick = () => {
     const input = userInput.value.toLowerCase();
@@ -268,7 +268,7 @@ bigifyButton.onclick = () => {
         result += "\n";
     }
     resultTextarea.value = result;
-    resultTextarea.cols = result.indexOf("\n") + 2;
+    // resultTextarea.cols = result.indexOf("\n") + 2;
 };
 
 copyButton.onclick = () => {
