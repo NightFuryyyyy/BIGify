@@ -23,6 +23,7 @@ body {
 .user-input {
     height: 30px;
     width: 100%;
+    font-family: inherit;
     background-color: #333333;
     color: inherit;
     border: none;
