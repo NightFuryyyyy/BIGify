@@ -268,7 +268,6 @@ bigifyButton.onclick = () => {
         result += "\n";
     }
     resultTextarea.value = result;
-    // resultTextarea.cols = result.indexOf("\n") + 2;
 };
 
 copyButton.onclick = () => {
